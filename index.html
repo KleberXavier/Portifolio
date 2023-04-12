@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="testestyle.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/testestyle.css">
+    <link rel="stylesheet" href="./css/card.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Kleber Xavier</title>
+    <title>Portfólio Kleber Xavier</title>
 </head>
 <body>
     <header>
         <nav>
-            <a class="logo" href="">Olá Sou Kleber Xavier</a>
+            <a class="logo" href="">MEU PORTFÓLIO</a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -21,115 +24,226 @@
                 <li><a href="#SobreMim" rel="null" type="onpage" id="mensagensclick">SOBRE MIM</a></li>
                 <li><a href="#Formacao">FORMAÇÃO</a></li>
                 <li><a href="#projetos">PROJETOS</a></li>
-                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#Soft Skills">SOFT SKILLS</a></li>
             </ul>
         </nav>
-        <p>WEB DESIGNER DEVELOPER</p>
     </header>
     <main></main>
     <script src="mobile-navbar.js"></script>
-
-    <div id="SobreMim" class="containerSobreMim">
-        <div class="childSobreMim1">
-<<<<<<< HEAD
-            <img src="./Imagens/CAPA - KLEBER.png" alt="Minha foto" title="Minha foto" class="ImgSobreMim">
-=======
-            <img src="./Imagens/CAPA - KLEBER.png " alt="Minha foto" title="Minha foto" class="ImgSobreMim">
->>>>>>> 0a0252447d003d2c4b186cc21c0ec9ba027659d5
+    <div class="espace"></div>
+    <section id="SobreMim" class="containerSobreMim">
+        <div class="movie_card">
+            <div class="info_section">
+                <div class="movie_header">
+                    <h1>SOBRE MIM</h1>
+                    <h4>04, Agosto de 1988</h4>
+                </div>
+                <div class="movie_desc">
+                    <p class="text">
+                    Pai de 2     meninos,    ou melhor, de dois mini     super-heróis (como gostam de ser chamados) e esposo da Mulher Maravilha     (afinal, ela está lendo isso).<br>
+                    Só mesmo sendo um Homem de Ferro. 😄
+                    Grato pela vida e pela família que tenho.<br><br> 
+                    Entusiasta da tecnologia, estou sempre aprendendo. A evolução é contínua, desde a minha primeira profissão como Modelista CAD até esse novo desafio para me tornar um full Stack developer. Amo o Front-End e tenho domínio sobre HTML, CSS, JavaScripit e Frameworks. Sigo aprendendo a cada dia sobre o Back-end com C#, Java, PHP entre outras linguagens. <br><br>
+                    Consumindo muito conhecimento da Universidade Mackenzie, Alura e outras plataformas em diversas áreas, a programação se tornou meu prazer, não me imagino mais passar um dia sem CODAR e CRIAR.
+                    </p>
+                </div>
+                <div class="movie_social">
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send?phone=5511997141641"><img src="./Imagens/IconWhatsApp.png" class="material-icons"></li>
+                        <li><a href="mailto:kleber.xavier@outlook.com"><img src="./Imagens/IconEmail.png" class="material-icons"></li>
+                        <li><a href="https://github.com/KleberXavier"><img src="./Imagens/IconGitHub.png" class="material-icons"></li>
+                        <li><a href="https://www.linkedin.com/in/kleberxavierdev/"><img src="./Imagens/IconLinkedin.png" class="material-icons"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="blur_back bright_back">
+            </div>
         </div>
-    <div class="childSobreMim2"></div>
-        <div class="childSobreMim3">
-        <p class="TextSobreMim">Entusiasta da tecnologia, estou sempre aprendendo desde da minha primeira profissão como Modelista CAD até esse novo desafio para se tornar um full stack developer.
-            Amo o Front-end e tenho domínio sobre HTML , CSS e Frameworks e um pouco de JavaScripit.
-            Aprendendo um pouco mais a cada dia sobre o Back-end com C#, Java, PHP entre outras linguagens.
-            Consumindo conhecimento da Universidade Mackenzie, Alura e etc... em diversas áreas, a programação se tornou meu prazer, não me imagino mais passar um dia sem CODAR.</p>
-        </div>
-    </div>
-    <div id="Formacao" class="containerFormacao">
-        <div class="backgroundFormacao">
-            <h1 class="titleFormacao">FORMAÇÃO</h1>
-        </div>
-        <div class="childFormacao1">
-            <div class="img1">
-                <img src="./Imagens/mackenzie.png" alt="Logo Faculdade Prebiteriana Mackenzie" class="ImgFormacao1"></a>
-                <div class="text1">
-                    <p>Formando em Analise e Desenvolvimento</p>
+    </section>
+    
+    <section id="Formacao" class="sectionformacao"> 
+        <h1 class="title1">FORMAÇÃO</h1>
+        <div class="containerFormacao"> 
+            <div class="childFormacao1">
+                <div class="img1">
+                    <img src="./Imagens/mackenzie.png" alt="Logo Faculdade Prebiteriana Mackenzie" class="ImgFormacao1"></a>
+                    <div class="text1">
+                        <a class="textForm" href="https://drive.google.com/drive/folders/15NeJLM27b_ISQau9cxXcPy85hqLD765E?usp=share_link"><p>Formando em Analise e Desenvolvimento</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="childFormacao1">
+                <div class="img1">
+                    <img src="./Imagens/alura.png" alt="Logo Alura Cursos" class="ImgFormacao1">
+                    <div class="text1">
+                        <a class="textForm" href="https://drive.google.com/drive/folders/1kQaF0HXvLVK4BzIbGaRrRZyFUfz2Pz9P?usp=share_link"><p>Cursos atuais e variados sobre o mundo tech </p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="childFormacao1">
+                <div class="img1">
+                    <img src="./Imagens/projetos.png" alt="Logo Universal de Bootcamps" class="ImgFormacao1"></a>
+                    <div class="text1">
+                        <a  class="textForm" href="https://drive.google.com/drive/folders/1GlMp439t3Aaq3PJXXbJUSTm52qFeegRE?usp=share_link"><p>Produção</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="childFormacao1">
+                <div class="img1">
+                    <img src="./Imagens/bradesco.png" alt="Logo Fundação bradesco" class="ImgFormacao1"></a>
+                    <div class="text1">
+                        <a class="textForm" href="https://drive.google.com/drive/folders/1P-0gprNX0mhxGCEtyZuorcrFxP_RVwwn?usp=share_link"><p>Certificados</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="childFormacao1">
+                <div class="img1">
+                    <img src="./Imagens/fiap.png" alt="Logo FIAP" class="ImgFormacao1"></a>
+                    <div class="text1">
+                        <a class="textForm" href="https://drive.google.com/drive/folders/1xT2bkrHCtPoN35wPrXIw6SQSlnKVyMrb?usp=share_link"><p>Back-end</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="childFormacao1">
+                <div class="img1">
+                    <img src="./Imagens/Unifesp.png" alt="Logo UNIFESP" class="ImgFormacao1"></a>
+                    <div class="text1">
+                        <a class="textForm"href="https://drive.google.com/drive/folders/12nx--yABX9f-pu6-jQ53R60iKOkrRzal?usp=sharing"><p>Certificados </p></a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="childFormacao1">
-            <div class="img1">
-                <img src="./Imagens/alura.png" alt="Logo Alura Cursos" class="ImgFormacao1"></a>
-                <div class="text1">
-                    <p>Cursos atuais e variados sobre o mundo tech </p>
+    </section>
+    <section id="projetos" class="containerProjetos">
+        <h1 class="title2">PROJETOS</h1>
+        <div class="gallery-wrapper">
+            <figure class="gallery-item">
+                <img src="./Imagens/Designer.png" class="item-image">
+                <figcaption class="item-descripition">
+                    <h2 class="name">DESIGNER</h2>
+                    <a href="https://github.com/KleberXavier" class="role">Descubra</a>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="./Imagens/Front-end.png" class="item-image">
+                <figcaption class="item-descripition">
+                    <h2 class="name">FRONT-END</h2>
+                    <a href="https://github.com/KleberXavier" class="role">Descubra</a>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="./Imagens/Sistemas.png" class="item-image">
+                <figcaption class="item-descripition">
+                    <h2 class="name">SISTEMAS</h2>
+                    <a href="https://github.com/KleberXavier" class="role">Descubra</a>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <h1 class="title2">SOFT SKILLS</h1>
+    <section id="Soft Skills" class="sectionSklls">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                    <img class="img-fluid" src="./Imagens/IconInt.png">
+                    </div>
+                    <div class="team-content">
+                        <ul class="nameSklls">
+                            <li class="skills">Inteligência emocional</li>
+                            <li class="skills">Resiliência</li>
+                        </ul>
+                    </div>
+                    <ul class="social">
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+                </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                    <img class="img-fluid" src="./Imagens/IconCol.png">
+                    </div>
+                    <div class="team-content">
+                        <ul class="nameSklls">
+                            <li class="skills">Visão Geral</li>
+                            <li class="skills">Espírito de Colaboração</li>
+                        </ul>
+                    </div>
+                    <ul class="social">
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+                </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                    <img class="img-fluid" src="./Imagens/IconCom.png">
+                    </div>
+                    <div class="team-content">
+                        <ul class="nameSklls">
+                            <li class="skills">Proatividade</li>
+                            <li class="skills">Comunicação</li>
+                        </ul>
+                    </div>
+                    <ul class="social">
+                    <li><img href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+                </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                    <img class="img-fluid" src="./Imagens/IconRes.png">
+                    </div>
+                    <div class="team-content">
+                        <ul class="nameSklls">
+                            <li class="skills">Capacidade de resolver Problemas</li>
+                            <li class="skills">Adaptabilidade</li>
+                        </ul>
+                    </div>
+                    <ul class="social">
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+                    </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="childFormacao1">
-            <div class="img1">
-                <img src="./Imagens/bootcamps.jpg" alt="Logo Universal de Bootcamps" class="ImgFormacao1"></a>
-                <div class="text1">
-                    <p>Imersões e desafios que participei</p>
-                </div>
+    </section>
+        <footer class="rodape">
+            <div class="whatsApp">
+                <a href="https://api.whatsapp.com/send?phone=5511997141641"><img src="./Imagens/whatsapp.png" >
             </div>
-        </div>
-        <div class="childFormacao1">
-            <div class="img1">
-                <img src="./Imagens/bradesco.png" alt="Logo Fundação bradesco" class="ImgFormacao1"></a>
-                <div class="text1">
-                    <p>Certificados variados</p>
-                </div>
+            <div>      
+                <p class="contato">Entre em contato.</p>    
             </div>
-        </div>
-        <div class="childFormacao1">
-            <div class="img1">
-                <img src="./Imagens/fiap.png" alt="Logo FIAP" class="ImgFormacao1"></a>
-                <div class="text1">
-                    <p>Um pouco de Back-end pela FIAP</p>
-                </div>
+            <div class="rodape-list">
+                <ul class="list-rodape">
+                    <li><a class="opcoesrodape" href="#SobreMim">SOBRE MIM</a></li>
+                    <li><a class="opcoesrodape" href="#Formacao">FORMAÇÃO</a></li>
+                    <li><a class="opcoesrodape" href="#projetos">PROJETOS</a></li>
+                    <li><a class="opcoesrodape" href="#skills">SOFT SKILLS</a></li>
+                </ul>
             </div>
-        </div>
-        <div class="childFormacao1">
-            <div class="img1">
-                <img src="./Imagens/Unifesp.png" alt="Logo UNIFESP" class="ImgFormacao1"></a>
-                <div class="text1">
-                    <p>Certificados </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="projetos" class="containerProjetos">
-        <div class="childrenProjetos">teste</div>
-        <div class="childrenProjetos">teste</div>
-        <div class="childrenProjetos">teste</div>
-    </div>
-
-    <div id="skills" class="containerSkills">
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-        <div class="childrenSkills"></div>
-    </div>
-    <footer id="rodape">
-        <div id="rodape1"></div>
-        <p class="Copyrigth">&copy; Copyrigth - Meu Portifólio - 2023</p>    
-    </footer>
-</body>
+            <div>      
+                <p id="contato" class="Copyrigth">&copy; Copyrigth - PORTIFÓLIO - KLEBER XAVIER - 2023</p>    
+            </div>    
+        </footer>
+    </body>
 </html>
+
 
